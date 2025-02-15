@@ -1,0 +1,56 @@
+@font-face {
+    font-family: outfit;
+    src: url("/recipe-page-main/assets/fonts/outfit/static/Outfit-Regular.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: youngserif;
+    src: url("/recipe-page-main/assets/fonts/young-serif/YoungSerif-Regular.ttf") format("ttf");
+}
+
+:root {
+    --bodycolor: hsl(30, 54%, 90%);
+    --darkpink: hsl(332, 51%, 32%);
+    --lightpink: hsl(330, 100%, 98%);
+    --h2color: hsl(14, 45%, 36%);
+    --pcolor: hsl(30, 10%, 34%);
+    --containerColor: hsl(0, 0%, 100%);
+    --omlette: hsl(24, 5%, 18%);
+    --bold: hsl(30, 10%, 34%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+img {
+    max-width: 100%;
+}
+
+.container div:not(first-child) {
+    padding: 1.5rem;
+}
+
+h1,
+h2 {
+    font-family: youngserif;
+}
+.banner h1{
+    margin-bottom: 1rem;
+}
+.banner p{
+    line-height: 1.6;
+    color: var(--pcolor);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
