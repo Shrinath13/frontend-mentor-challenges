@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../../Frontendmentor/frontend-mentor-challenges"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "frontend-mentor-challenges"
+	}
+}
