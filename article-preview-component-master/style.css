@@ -1,0 +1,162 @@
+ @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+ * {
+     margin: 0;
+     padding: 0;
+ }
+
+ .attribution {
+     padding: 10px;
+     font-size: 11px;
+     text-align: right;
+     position: absolute;
+     bottom: 0;
+     left: 40vw;
+ }
+
+ .attribution a {
+     color: hsl(228, 45%, 44%);
+ }
+
+ :root {
+     --secondContainerColor: hsl(217, 19%, 35%);
+     --fontColor: hsl(214, 17%, 51%);
+     --shareButtonColor: hsl(212, 23%, 69%);
+     --bodyBackgroundColor: hsl(210, 46%, 95%);
+ }
+
+ body {
+     font-size: 13px;
+     font-family: "Manrope", sans-serif;
+     background-color: var(--bodyBackgroundColor);
+     min-height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .card {
+     display: flex;
+     width: 750px;
+     height: 280px;
+     /* REQUIRED */
+     border-radius: 20px;
+     background-color: white;
+ }
+
+ .card-img {
+     width: 45%;
+     height: 100%;
+     background-image: url(images/drawers.jpg);
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+     border-radius: 20px 0 0 20px;
+ }
+
+ .card-content {
+     width: 55%;
+     height: 100%;
+    padding: 30px 40px;
+    
+ }
+ .card-content p{
+    margin-bottom: 20px;
+ }
+ h2{
+    color: var(--secondContainerColor);
+    font-family: "Manrope", sans-serif;
+    font-weight: 700;
+    margin-bottom: 20px;
+ }
+ h4{
+    color: var(--secondContainerColor);
+ }
+ p{
+    color: var(--fontColor);
+    font-weight: 500;
+ }
+ .profile-box{
+    /* border: 1px solid black; */
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+     position: relative;
+ }
+ .profile-card{
+
+    height: 100%;
+    /* border:1px solid blue; */
+    display: flex;
+    flex-direction: row;
+ }
+ .profile-card img{
+    height: 100%;
+    border-radius: 50%;
+ }
+ .profile-bio{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    margin-top: 8px;
+ }
+button{
+    height: 100%;
+    width: 50px;
+    border-radius: 50%;
+    border-style: none;
+    background-color: var(--bodyBackgroundColor);
+    cursor: pointer;
+}
+button img{
+    background-color: var(--bodyBackgroundColor);
+}
+.share-box{
+    background-color: var(--secondContainerColor);
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    position: absolute;
+    left: 63vw;
+    top: 48vh;
+
+    /* position: absolute;
+  bottom: 60px;
+  right: 0; */
+}
+.share-box p{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: hsl(212, 23%, 69%);
+}
+.logo{
+    height: 20px;
+    margin: 10px;
+}
+.empty{
+    background-color: var(--secondContainerColor);
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    right: 27vw;
+    top:50vh;
+    transform: rotate(50deg);
+
+      /* position: absolute;
+  bottom: 45px;
+  right: 20px;
+  transform: rotate(45deg); */
+}
+.hidden {
+  display: none;
+}
+
+ 
+
